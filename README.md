@@ -57,10 +57,10 @@
 <div align="center">
 
 ### 💻 Languages
-<img src="https://skillicons.dev/icons?i=python,c,js,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,js,html,css,c&theme=dark" />
 
 ### 📦 Libraries & Frameworks
-<img src="https://skillicons.dev/icons?i=sklearn,bootstrap&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,django,sklearn,bootstrap,tailwind&theme=dark" />
 
 <br/>
 
@@ -70,7 +70,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ### ⚙️ Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,arduino&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,arduino,vite&theme=dark" />
 
 </div>
 
@@ -80,13 +80,74 @@
 
 <div align="center">
 
-| Project | Description | Stack |
-|--------|-------------|-------|
-| 🛣️ **NHAI Smart Highway Platform** | Premium dual-portal highway mobility & toll intelligence system with Dijkstra routing, FASTag simulation & live incident management | `HTML5` `CSS3` `Vanilla JS` `Leaflet.js` `Dijkstra` `localStorage` |
-| 🪨 **Drill Core Lithology Classifier** | ML system automating lithology classification from drill core images using supervised learning | `Python` `Scikit-Learn` `Pandas` `NumPy` `Matplotlib` |
-| 🗑️ **AI-Based Smart Dustbin** | IoT-enabled intelligent waste management system for smart-city applications | `Arduino` `Embedded C` `IoT` `Ultrasonic Sensors` |
+| Project | Description | Stack | Link |
+|--------|-------------|-------|------|
+| 📚 **LibInventory** | Full-stack library inventory & borrow tracking system with real-time stock automation, physical rack tracker, dynamic fine calculation, and staff/member roles. | `Django` `Bootstrap 5` `Chart.js` `SQLite` `Python-Decouple` | [Repo](https://github.com/pavankurra-lpu/library-management-system) |
+| 🌱 **FloraLog** | Glassmorphic plant care dashboard and IoT precision irrigation simulator with calendar-based sensor cycles and telemetry logic. | `HTML5` `CSS3` `Vanilla JS` `Local Storage` `IoT Telemetry` | [Repo](https://github.com/pavankurra-lpu/FloraLog) |
+| 💼 **AuraHR** | Premium internal HR portal featuring glassmorphic design and dual-portals for comprehensive personnel management and operations tracking. | `React` `Vite` `Vanilla JS` `Tailwind CSS` `Local Storage` | [Repo](https://github.com/pavankurra-lpu/HR-Employee-dashboard) |
+| 🛣️ **NHAI Smart Highway** | Dual-portal highway mobility & toll intelligence platform with Dijkstra routing, FASTag wallet simulation, and incident dispatch. | `HTML5` `CSS3` `Vanilla JS` `Leaflet.js` `Dijkstra` | [Repo](https://github.com/pavankurra-lpu/Smart-National-Highway-Operations-Platform) |
+| 🪨 **Lithology Classifier** | ML system automating geological lithology classification from drill core images. | `Python` `Scikit-Learn` `Pandas` `NumPy` `Matplotlib` | [Repo](https://github.com/naineysaripudi/Automated-Lithology-Classification-System..) |
+| 🗑️ **AI Smart Dustbin** | IoT-enabled touch-free intelligent waste management system with ultrasonic level monitoring. | `Arduino` `Embedded C` `IoT` `Ultrasonic Sensors` | - |
 
 </div>
+
+### 📚 LibInventory — Full-Stack Library Inventory Management System
+
+> A professional, portfolio-grade library catalog and transaction manager built with Django, featuring automated stock status transitions, dynamic fine calculation, and role-based views.
+
+<details>
+<summary><b>🟢 Core Features</b></summary>
+
+- 📊 **Live Analytics Dashboard**: Category distributions, catalog availability metrics, and loan trends using **Chart.js**.
+- 📍 **Physical Rack Tracker**: Instantly locates books on shelves (e.g. `Section A, Rack 3, Shelf 2`) and shows real-time availability.
+- ⚙️ **Smart Inventory Automation**: Automatic stock level adjustments and availability status updates on borrow/return events.
+- 💰 **Dynamic Fine Calculator**: Computes overdue fines at `$1.00` per day dynamically on load.
+- 🔐 **Role-Based Access Control**: Separate workflows for **Librarians** (CRUD operations, stock management, issuing) and **Members** (catalog browsing, personal history, shelf tracking).
+- 📦 **Incoming Stock Management**: Log expected shipments, automatically updating inventory when marked as received.
+
+</details>
+
+`Django 4.2` `Python` `Bootstrap 5` `Chart.js` `SQLite` `Python-Decouple`
+
+---
+
+### 🌱 FloraLog — Smart Plant Care & Watering IoT Simulator
+
+> A glassmorphic plant care dashboard and IoT precision irrigation simulator using telemetry logic derived from the TARP (Targeted Agriculture Precision) Dataset.
+
+<details>
+<summary><b>🟢 Core Features</b></summary>
+
+- 📅 **Virtual Calendar Simulator**: Fast-forward time (+1 or +5 Days) to simulate sensor cycles and observe plant moisture evaporation.
+- 📡 **TARP IoT Sensor Telemetry**: Soil moisture, temperature, humidity, pH, and NPK calculations that dictate irrigation request statuses.
+- 🔔 **Thirsty Alerts Bell**: Alarm system for high-priority watering events with quick "Water All" actions.
+- 🌿 **Species Blueprints**: Quick presets for popular species (Monstera, Snake Plant, Peace Lily, Cactus, Pothos).
+- 💧 **Custom Water Volume Tracker**: Accurate hydration logging (100ml, 250ml, 500ml) per plant.
+
+</details>
+
+`HTML5` `CSS3` `Vanilla JS (ES6+)` `Local Storage` `IoT Simulation` `Glassmorphism`
+
+---
+
+### 💼 AuraHR — Premium HR Portal & Employee Management System
+
+> A sleek corporate directory, incident tracker, and HR workspace featuring glassmorphic analytics, secure role transitions, and task/incident dispatch workflows.
+
+<details>
+<summary><b>🟢 Core Features</b></summary>
+
+- 📊 **Executive Analytics**: Real-time charts for employee headcount, department allocations, and task completion metrics.
+- 🛡️ **Dual-Portal Workflow**: Dedicated dashboards for HR managers (directory CRUD, salary slip generation, incident resolution) and employees (task tracker, time logging, leave requests).
+- 📝 **Incident & Task Dispatch**: Real-time management of employee issues and operational tasks.
+- 💳 **Salary Slip Generator**: Seamless payslip requests and administrative approvals.
+- 🏗️ **React + Vite Core**: Built with React, Vite, and Tailwind CSS for rapid hot module reloading and performance.
+
+</details>
+
+`React` `Vite` `Vanilla JS` `Tailwind CSS` `Local Storage` `Glassmorphism`
+
+---
 
 ### 🛣️ NHAI Smart Highway Mobility & Toll Intelligence Platform
 
