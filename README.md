@@ -33,7 +33,7 @@
 
 ## 🧠 About Me
 
-\`\`\`yaml
+```text
 ╔══════════════════════════════════════════════════════╗
 ║                   PAVAN KURRA                        ║
 ╠══════════════════════════════════════════════════════╣
@@ -54,7 +54,7 @@
 ║    ► Backend Development                             ║
 ║    ► Production-Grade AI Systems                     ║
 ╚══════════════════════════════════════════════════════╝
-\`\`\`
+```
 
 ---
 
@@ -240,16 +240,16 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pavankurra-lpu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2563eb&icon_color=2563eb&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavankurra-lpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2563eb&text_color=c9d1d9"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pavankurra-lpu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2563eb&icon_color=2563eb&text_color=c9d1d9&cache_seconds=86400"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavankurra-lpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2563eb&text_color=c9d1d9&cache_seconds=86400"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pavankurra-lpu&theme=tokyonight&hide_border=true&background=0d1117&ring=2563eb&fire=2563eb&currStreakLabel=2563eb"/>
+<img src="https://streak-stats.demolab.com/?user=pavankurra-lpu&theme=tokyonight&hide_border=true&background=0d1117&ring=2563eb&fire=2563eb&currStreakLabel=2563eb"/>
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=pavankurra-lpu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6"/>
+<img src="https://github-profile-trophy.vercel.app/?username=pavankurra-lpu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6&cache_seconds=86400"/>
 
 </div>
 
@@ -259,7 +259,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavankurra-lpu&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=2563eb&line=2563eb&point=ffffff"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavankurra-lpu&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=2563eb&line=2563eb&point=ffffff&cache_seconds=86400"/>
 
 </div>
 
@@ -284,7 +284,7 @@
 
 <div align="center">
 
-\`\`\`
+```
 ┌─────────────────────────────────────────────┐
 │                                             │
 │   ► Build practical, impactful systems      │
@@ -294,7 +294,7 @@
 │   ► Solve real problems with real code      │
 │                                             │
 └─────────────────────────────────────────────┘
-\`\`\`
+```
 
 </div>
 
