@@ -9,6 +9,9 @@
 <br/>
 
 <p align="center">
+  <a href="https://portfolio-five-neon-98.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
   <a href="https://www.linkedin.com/in/pavan-kurra/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
@@ -17,6 +20,9 @@
   </a>
   <a href="https://github.com/pavankurra-lpu">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/u/4MvfPuI3AX/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
   </a>
   <img src="https://komarev.com/ghpvc/?username=pavankurra-lpu&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS"/>
 </p>
@@ -27,7 +33,7 @@
 
 ## 🧠 About Me
 
-```yaml
+\`\`\`yaml
 ╔══════════════════════════════════════════════════════╗
 ║                   PAVAN KURRA                        ║
 ╠══════════════════════════════════════════════════════╣
@@ -48,7 +54,7 @@
 ║    ► Backend Development                             ║
 ║    ► Production-Grade AI Systems                     ║
 ╚══════════════════════════════════════════════════════╝
-```
+\`\`\`
 
 ---
 
@@ -60,7 +66,7 @@
 <img src="https://skillicons.dev/icons?i=python,js,html,css,c&theme=dark" />
 
 ### 📦 Libraries & Frameworks
-<img src="https://skillicons.dev/icons?i=react,django,sklearn,bootstrap,tailwind&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,django,fastapi,tensorflow,sklearn,bootstrap,tailwind&theme=dark" />
 
 <br/>
 
@@ -68,9 +74,11 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 ### ⚙️ Tools & Platforms
-<img src="https://skillicons.dev/icons?i=git,github,vscode,arduino,vite&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,arduino,vite,docker,vercel&theme=dark" />
 
 </div>
 
@@ -82,14 +90,34 @@
 
 | Project | Description | Stack | Link |
 |--------|-------------|-------|------|
+| 🪨 **Drill Core Lithology Classifier** | End-to-end ML web app that classifies drill core rock samples into 10 lithology classes using a ResNet50 CNN, served through a FastAPI backend with a geology-themed dashboard UI. Dockerized for Hugging Face Spaces deployment. | `TensorFlow/Keras` `ResNet50` `FastAPI` `Docker` `Chart.js` | [Repo](https://github.com/pavankurra-lpu/Drill-core-lythology-classification-model) |
 | 📚 **LibInventory** | Full-stack library inventory & borrow tracking system with real-time stock automation, physical rack tracker, dynamic fine calculation, and staff/member roles. | `Django` `Bootstrap 5` `Chart.js` `SQLite` `Python-Decouple` | [Repo](https://github.com/pavankurra-lpu/library-management-system) |
 | 🌱 **FloraLog** | Glassmorphic plant care dashboard and IoT precision irrigation simulator with calendar-based sensor cycles and telemetry logic. | `HTML5` `CSS3` `Vanilla JS` `Local Storage` `IoT Telemetry` | [Repo](https://github.com/pavankurra-lpu/FloraLog) |
 | 💼 **AuraHR** | Premium internal HR portal featuring glassmorphic design and dual-portals for comprehensive personnel management and operations tracking. | `React` `Vite` `Vanilla JS` `Tailwind CSS` `Local Storage` | [Repo](https://github.com/pavankurra-lpu/HR-Employee-dashboard) |
 | 🛣️ **NHAI Smart Highway** | Dual-portal highway mobility & toll intelligence platform with Dijkstra routing, FASTag wallet simulation, and incident dispatch. | `HTML5` `CSS3` `Vanilla JS` `Leaflet.js` `Dijkstra` | [Repo](https://github.com/pavankurra-lpu/Smart-National-Highway-Operations-Platform) |
-| 🪨 **Lithology Classifier** | ML system automating geological lithology classification from drill core images. | `Python` `Scikit-Learn` `Pandas` `NumPy` `Matplotlib` | [Repo](https://github.com/naineysaripudi/Automated-Lithology-Classification-System..) |
+| 🌐 **Personal Portfolio** | Live personal portfolio site showcasing projects, resume, and contact details. | `HTML5` `CSS3` `Vercel` | [Repo](https://github.com/pavankurra-lpu/portfolio) • [Live](https://portfolio-five-neon-98.vercel.app) |
 | 🗑️ **AI Smart Dustbin** | IoT-enabled touch-free intelligent waste management system with ultrasonic level monitoring. | `Arduino` `Embedded C` `IoT` `Ultrasonic Sensors` | - |
 
 </div>
+
+### 🪨 Drill Core Lithology Classification System
+
+> An end-to-end machine learning web application that automates the logging and classification of stratigraphic drill core rock samples using deep learning.
+
+<details>
+<summary><b>🟢 Core Features</b></summary>
+
+- 🧠 **ResNet50 Transfer Learning**: Deep CNN trained with TensorFlow/Keras to classify core slices into **10 lithology classes** — Igneous (Granite, Basalt), Sedimentary (Sandstone, Limestone, Shale, Dolomite, Coal), Metamorphic (Quartzite, Marble, Gneiss).
+- ⚡ **FastAPI Prediction Backend**: `/predict` endpoint serving real-time inference alongside static file hosting.
+- 🎨 **Geology-Inspired Dark UI**: Three-page SPA (Home, Predict, About) with drag-and-drop image upload and Chart.js result visualization.
+- 🐳 **Containerized Deployment**: Dockerfile configured for one-click deployment to Hugging Face Spaces.
+- 🧪 **Flexible Training Pipeline**: Supports dummy-model generation for rapid testing, synthetic dataset training, or training on a custom labeled core dataset.
+
+</details>
+
+`Python` `TensorFlow/Keras` `ResNet50` `FastAPI` `Docker` `Chart.js` `Scikit-Learn`
+
+---
 
 ### 📚 LibInventory — Full-Stack Library Inventory Management System
 
@@ -189,15 +217,13 @@
 
 ---
 
-### 🪨 Drill Core Lithology Classification System
+### 🌐 Personal Portfolio
 
-> Machine learning pipeline that automates geoscience classification tasks from raw drill core images.
+> A live, deployed personal portfolio site showcasing project work, resume, and contact info — [portfolio-five-neon-98.vercel.app](https://portfolio-five-neon-98.vercel.app)
 
-- 🌲 Random Forest-based prediction pipeline  
-- 🖼️ Image preprocessing & feature scaling  
-- 🏷️ Label encoding & multi-class classification  
-- 📊 Confusion matrix evaluation & performance analytics  
-- 📈 Data visualization dashboards  
+`HTML5` `CSS3` `Vercel`
+
+---
 
 ### 🗑️ AI-Based Smart Dustbin
 
@@ -258,7 +284,7 @@
 
 <div align="center">
 
-```
+\`\`\`
 ┌─────────────────────────────────────────────┐
 │                                             │
 │   ► Build practical, impactful systems      │
@@ -268,7 +294,7 @@
 │   ► Solve real problems with real code      │
 │                                             │
 └─────────────────────────────────────────────┘
-```
+\`\`\`
 
 </div>
 
